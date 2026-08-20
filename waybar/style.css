@@ -1,79 +1,102 @@
 @define-color color-bg                                  #1b1a1a;
 @define-color color-fg                                  #ebdbb2;
-@define-color color-button-bg                           #83a598;
-@define-color color-button-fg                           #1b1a1a;
-@define-color color-button-urgent-bg                    #fb4934;
-@define-color color-button-urgent-fg                    #1b1a1a;
-@define-color color-workspace-button-bg                 #504945;
+
+/* Серая палитра для кнопок и виджетов */
+@define-color color-button-bg                           #504945;
+@define-color color-button-fg                           #ebdbb2;
+@define-color color-button-urgent-bg                    #7c6f64;
+@define-color color-button-urgent-fg                    #ebdbb2;
+
+@define-color color-workspace-button-bg                 #3c3836;
 @define-color color-workspace-button-fg                 #ebdbb2;
-@define-color color-workspace-button-hover-bg           #665c54;
+@define-color color-workspace-button-hover-bg           #504945;
 @define-color color-workspace-button-hover-fg           #ebdbb2;
-@define-color color-workspace-button-focused-bg         #83a598;
-@define-color color-workspace-button-focused-fg         #1b1a1a;
-@define-color color-taskbar-button-minimized-bg         #bd788a;
-@define-color color-taskbar-button-minimized-fg         #1b1a1a;
-@define-color color-taskbar-button-active-bg            #BABD2C;
-@define-color color-taskbar-button-active-fg            #1b1a1a;
-@define-color color-widget-audio-bg                     #e3ac2b;
-@define-color color-widget-audio-fg                     #1b1a1a;
-@define-color color-widget-audio-hover-bg               #e3ac2b;
-@define-color color-widget-audio-hover-fg               #1b1a1a;
-@define-color color-widget-audio-muted-bg               #e3ac2b;
-@define-color color-widget-audio-muted-fg               #1b1a1a;
-@define-color color-widget-clock-bg                     #c4b595;
-@define-color color-widget-clock-fg                     #1b1a1a;
-@define-color color-widget-battery-bg                   #b8bb26;
-@define-color color-widget-battery-fg                   #1b1a1a;
-@define-color color-widget-battery-low-bg               #df402f;
-@define-color color-widget-battery-low-fg               #1b1a1a;
-@define-color color-widget-battery-low-blink-bg         #df402f;
-@define-color color-widget-battery-low-blink-fg         #1b1a1a;
-@define-color color-widget-backlight-bg                 #d3869b;
-@define-color color-widget-backlight-fg                 #1b1a1a;
-@define-color color-widget-temperature-bg               #8ec07c;
-@define-color color-widget-temperature-fg               #1b1a1a;
-@define-color color-widget-temperature-critical-bg      #df402f;
-@define-color color-widget-temperature-critical-fg      #1b1a1a;
-@define-color color-widget-memory-bg                    #83a598;
-@define-color color-widget-memory-fg                    #1b1a1a;
-@define-color color-widget-cpu-bg                       #c4b595;
-@define-color color-widget-cpu-fg                       #1b1a1a;
-@define-color color-widget-power-profile-balanced-bg    #d3869b;
-@define-color color-widget-power-profile-balanced-fg    #1b1a1a;
-@define-color color-widget-power-profile-performance-bg #fe8019;
-@define-color color-widget-power-profile-performance-fg #1b1a1a;
-@define-color color-widget-power-profile-saver-bg       #b8bb26;
-@define-color color-widget-power-profile-saver-fg       #1b1a1a;
-@define-color color-widget-network-bg                   #b8bb26;
-@define-color color-widget-network-fg                    #1b1a1a;
-@define-color color-widget-tray-bg                      #504945;
-@define-color color-widget-tray-needs-attention         #fb4934;
+@define-color color-workspace-button-focused-bg         #665c54;
+@define-color color-workspace-button-focused-fg         #ebdbb2;
+
+@define-color color-taskbar-button-minimized-bg         #3c3836;
+@define-color color-taskbar-button-minimized-fg         #a89984;
+@define-color color-taskbar-button-active-bg            #665c54;
+@define-color color-taskbar-button-active-fg            #ebdbb2;
+
+@define-color color-widget-audio-bg                     #504945;
+@define-color color-widget-audio-fg                     #ebdbb2;
+@define-color color-widget-audio-hover-bg               #665c54;
+@define-color color-widget-audio-hover-fg               #ebdbb2;
+@define-color color-widget-audio-muted-bg               #3c3836;
+@define-color color-widget-audio-muted-fg               #a89984;
+
+@define-color color-widget-clock-bg                     #504945;
+@define-color color-widget-clock-fg                     #ebdbb2;
+
+@define-color color-widget-battery-bg                   #504945;
+@define-color color-widget-battery-fg                   #ebdbb2;
+@define-color color-widget-battery-low-bg               #665c54;
+@define-color color-widget-battery-low-fg               #ebdbb2;
+@define-color color-widget-battery-low-blink-bg         #7c6f64;
+@define-color color-widget-battery-low-blink-fg         #ebdbb2;
+
+@define-color color-widget-backlight-bg                 #504945;
+@define-color color-widget-backlight-fg                 #ebdbb2;
+
+@define-color color-widget-temperature-bg               #504945;
+@define-color color-widget-temperature-fg               #ebdbb2;
+@define-color color-widget-temperature-critical-bg      #665c54;
+@define-color color-widget-temperature-critical-fg      #ebdbb2;
+
+@define-color color-widget-memory-bg                    #504945;
+@define-color color-widget-memory-fg                    #ebdbb2;
+
+@define-color color-widget-cpu-bg                       #504945;
+@define-color color-widget-cpu-fg                       #ebdbb2;
+
+@define-color color-widget-power-profile-balanced-bg    #504945;
+@define-color color-widget-power-profile-balanced-fg    #ebdbb2;
+@define-color color-widget-power-profile-performance-bg #665c54;
+@define-color color-widget-power-profile-performance-fg #ebdbb2;
+@define-color color-widget-power-profile-saver-bg       #3c3836;
+@define-color color-widget-power-profile-saver-fg       #ebdbb2;
+
+@define-color color-widget-network-bg                   #504945;
+@define-color color-widget-network-fg                    #ebdbb2;
+
+@define-color color-widget-tray-bg                      #3c3836;
+@define-color color-widget-tray-needs-attention         #665c54;
+
 @define-color color-widget-custom-notification-bg        #504945;
-@define-color color-widget-custom-notification-fg        #dfcdb3;
-@define-color color-widget-scratchpad-bg                #ff0000;
-@define-color color-widget-scratchpad-fg                #ff0000;
-@define-color color-widget-power-bg                     #83a598;
-@define-color color-widget-power-fg                     #1b1a1a;
-@define-color color-widget-window-bg                    #bd788a;
-@define-color color-widget-window-fg                    #111111;
-@define-color color-widget-layout-bg                    #bd788a;
-@define-color color-widget-layout-fg                    #111111;
-@define-color color-widget-keyboard-state-bg            #fe8019;
-@define-color color-widget-keyboard-state-fg            #1b1a1a;
-@define-color color-widget-language-bg                  #bd788a;
-@define-color color-widget-language-fg                  #1b1a1a;
-@define-color color-widget-keymode-bg                   #83a598;
-@define-color color-widget-keymode-fg                   #1b1a1a;
-@define-color color-tooltip-bg                          #241F19;
+@define-color color-widget-custom-notification-fg        #ebdbb2;
+
+@define-color color-widget-scratchpad-bg                #504945;
+@define-color color-widget-scratchpad-fg                #ebdbb2;
+
+@define-color color-widget-power-bg                     #504945;
+@define-color color-widget-power-fg                     #ebdbb2;
+
+@define-color color-widget-window-bg                    #504945;
+@define-color color-widget-window-fg                    #ebdbb2;
+
+@define-color color-widget-layout-bg                    #504945;
+@define-color color-widget-layout-fg                    #ebdbb2;
+
+@define-color color-widget-keyboard-state-bg            #504945;
+@define-color color-widget-keyboard-state-fg            #ebdbb2;
+
+@define-color color-widget-language-bg                  #504945;
+@define-color color-widget-language-fg                  #ebdbb2;
+
+@define-color color-widget-keymode-bg                   #504945;
+@define-color color-widget-keymode-fg                   #ebdbb2;
+
+@define-color color-tooltip-bg                          #282828;
 @define-color color-tooltip-fg                          #ebdbb2;
-@define-color color-menu-bg                             #241F19;
-@define-color color-menuitem-bg                         #241F19;
+@define-color color-menu-bg                             #282828;
+@define-color color-menuitem-bg                         #282828;
 @define-color color-menuitem-fg                         #ebdbb2;
-@define-color color-menuitem-hover-bg                   #b8bb26;
-@define-color color-menuitem-hover-fg                   #1b1a1a;
-@define-color color-menuitem-active-bg                  #ebdbb2;
-@define-color color-menuitem-active-fg                  #1b1a1a;
-@define-color color-gradient-fade                       #fbf1c7;
+@define-color color-menuitem-hover-bg                   #504945;
+@define-color color-menuitem-hover-fg                   #ebdbb2;
+@define-color color-menuitem-active-bg                  #665c54;
+@define-color color-menuitem-active-fg                  #ebdbb2;
+@define-color color-gradient-fade                       #3c3836;
 
 * {
     font-family: "Maple Mono NF CN", monospace;
@@ -113,12 +136,10 @@ button {
     background-color: @color-button-bg;
 }
 
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
     background: inherit;
 }
 
-/* you can set a style on hover for any module like this */
 #pulseaudio:hover, #custom-sink:hover {
     background-color: @color-widget-audio-hover-bg;
     color: @color-widget-audio-hover-fg;
@@ -129,7 +150,8 @@ button:hover {
     margin: 0;
 }
 
-#workspaces button {
+#workspaces button,
+#mango-workspaces button {
     transition: none;
     padding: 0;
     min-height: 0px;
@@ -139,25 +161,20 @@ button:hover {
     color: @color-workspace-button-fg;
 }
 
-#workspaces button:hover {
+#workspaces button:hover,
+#mango-workspaces button:hover {
     background: linear-gradient(to top, @color-workspace-button-hover-bg, mix(@color-workspace-button-hover-bg, @color-gradient-fade, 0.25));
     color: @color-workspace-button-hover-fg;
 }
 
-#workspaces button.active {
+#workspaces button.active, 
+#workspaces button.overview,
+#mango-workspaces button.active,
+#mango-workspaces button.overview {
     background: linear-gradient(to top, @color-workspace-button-focused-bg, mix(@color-workspace-button-focused-bg, @color-gradient-fade, 0.25));
     color: @color-workspace-button-focused-fg;
 }
 
-#workspaces button.overview {
-    background: linear-gradient(to top, @color-workspace-button-focused-bg, mix(@color-workspace-button-focused-bg, @color-gradient-fade, 0.25));
-    color: @color-workspace-button-focused-fg;
-}
-
-#workspaces button.urgent {
-    background: linear-gradient(to top, @color-button-urgent-bg, mix(@color-button-urgent-bg, @color-gradient-fade, 0.25));
-    color: @color-button-urgent-fg;
-}
 
 #taskbar {
     padding: 0px;
@@ -193,15 +210,13 @@ button:hover {
     color: @color-taskbar-button-minimized-fg;
 }
 
-
-#taskbar button.urgent{
+#taskbar button.urgent {
     background: linear-gradient(to top, @color-button-urgent-bg, mix(@color-button-urgent-bg, @color-gradient-fade, 0.25));
     color: @color-button-urgent-fg;
 }
 
 #mode {
-    background-color: #ff0000;
-    box-shadow: inset 0 -3px #0000ff;
+    background-color: #504945;
 }
 
 #clock,
@@ -244,12 +259,10 @@ button:hover {
     margin-left: 0px;
 }
 
-/* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
     margin-left: 0;
 }
 
-/* If workspaces is the rightmost module, omit right margin */
 .modules-right > widget:last-child > #workspaces {
     margin-right: 0;
 }
@@ -288,9 +301,6 @@ window#waybar.empty #window {
     color: @color-widget-battery-fg;
 }
 
-#battery.charging {
-}
-
 @keyframes blink-battery-low {
     to {
         background: linear-gradient(to top, @color-widget-battery-low-blink-bg, mix(@color-widget-battery-low-blink-bg, @color-gradient-fade, 0.25));
@@ -298,10 +308,6 @@ window#waybar.empty #window {
     }
 }
 
-#battery:not(.charging) {
-}
-
-/* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
     background: linear-gradient(to top, @color-widget-battery-low-bg, mix(@color-widget-battery-low-bg, @color-gradient-fade, 0.25));
     color: @color-widget-battery-low-fg;
@@ -310,9 +316,6 @@ window#waybar.empty #window {
     animation-timing-function: steps(12);
     animation-iteration-count: infinite;
     animation-direction: alternate;
-}
-
-#power-profiles-daemon {
 }
 
 #power-profiles-daemon.performance {
@@ -331,7 +334,7 @@ window#waybar.empty #window {
 }
 
 label:focus {
-    background-color: #ff0000;
+    background-color: #504945;
 }
 
 #cpu {
@@ -346,7 +349,7 @@ label:focus {
 }
 
 #disk {
-    background-color: #ff0000;
+    background-color: #504945;
 }
 
 #backlight {
@@ -355,11 +358,12 @@ label:focus {
 }
 
 #network {
-    background-color: #ff0000;
+    background: linear-gradient(to top, @color-widget-network-bg, mix(@color-widget-network-bg, @color-gradient-fade, 0.25));
+    color: @color-widget-network-fg;
 }
 
 #network.disconnected {
-    background-color: #ff0000;
+    background-color: #3c3836;
 }
 
 #pulseaudio, #custom-sink {
@@ -396,26 +400,18 @@ label:focus {
 }
 
 #wireplumber {
-    background-color: #ff0000;
-    color: #00ff00;
+    background-color: #504945;
+    color: #ebdbb2;
 }
 
 #wireplumber.muted {
-    background-color: #0000ff;
+    background-color: #3c3836;
 }
 
 #custom-media {
-    background-color: #ff0000;
-    color: #0000ff;
+    background-color: #504945;
+    color: #ebdbb2;
     min-width: 100px;
-}
-
-#custom-media.custom-spotify {
-    background-color: #00ff00;
-}
-
-#custom-media.custom-vlc {
-    background-color: #ff0000;
 }
 
 #temperature {
@@ -441,11 +437,6 @@ label:focus {
     background: linear-gradient(to top, @color-widget-tray-needs-attention, mix(@color-widget-tray-needs-attention, @color-gradient-fade, 0.25));
 }
 
-#network {
-    background: linear-gradient(to top, @color-widget-network-bg, mix(@color-widget-network-bg, @color-gradient-fade, 0.25));
-    color: @color-widget-network-fg;
-}
-
 #custom-notification {
     background: linear-gradient(to top, @color-widget-custom-notification-bg, mix(@color-widget-custom-notification-bg, @color-gradient-fade, 0.25));
     color: @color-widget-custom-notification-fg;
@@ -469,7 +460,6 @@ tooltip label {
     color: @color-tooltip-fg;
     padding: 3px 7px;
 }
-
 
 menu {
   border-width: 2px;

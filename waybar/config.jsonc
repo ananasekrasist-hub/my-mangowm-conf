@@ -7,7 +7,7 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "mango/workspaces",
+        "ext/workspaces",
         "mango/layout",
         "wlr/taskbar",
         "mango/window"
@@ -29,13 +29,6 @@
         "clock",
         "custom/power"
     ],
-    "mango/workspaces": {
-        "format": "{icon}",
-        "hide-empty": true,
-        "on-click": "activate",
-        "on-click-right": "toggle",
-        "overview-label": "OVERVIEW"
-    },
     "mango/keymode": {
     	"format": "{}"
     	// "format-default": " Default",
@@ -77,17 +70,21 @@
       "on-click-right": "deactivate",
       "on-scroll-up":"mmsg dispatch viewtoleft_have_client",
       "on-scroll-down":"mmsg dispatch viewtoright_have_client",
-      "sort-by-id": true
-      // "format-icons": {
-      //   "1": "",
-      //   "2": "",
-      //   "3": "",
-      //   "4": "",
-      //   "5": "",
-      //   "urgent": "",
-      //   "active": "",
-      //   "default": ""
-      // },
+      "sort-by-id": true,
+      "format-icons": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10",
+        "active": "",
+        "default": ""
+      }
     },
     "wlr/taskbar": {
       "format": "{icon}",

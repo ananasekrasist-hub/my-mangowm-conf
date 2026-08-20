@@ -13,10 +13,13 @@ systemctl --user restart xdg-desktop-portal &
 swaync -c ~/.config/mango/swaync/config.jsonc -s ~/.config/mango/swaync/style.css >/dev/null 2>&1 &
 
 # night light
-wlsunset -T 3501 -t 3500 >/dev/null 2>&1 &
+#wlsunset -T 3501 -t 3500 >/dev/null 2>&1 &
 
 # wallpaper
-swaybg -i ~/.config/mango/wallpaper/wallpaper.png >/dev/null 2>&1 &
+#swaybg -i ~/.config/mango/wallpaper/wallpapersss.jpg >/dev/null 2>&1 &
+
+# wallpaper (live/video)
+mpvpaper -o "no-audio loop panscan=1.0" 'HDMI-A-1' ~/.config/mango/wallpaper/livekrug.mp4 >/dev/null 2>&1 &
 
 # top bar
 waybar -c ~/.config/mango/waybar/config.jsonc -s ~/.config/mango/waybar/style.css >/dev/null 2>&1 &

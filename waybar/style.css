@@ -119,7 +119,7 @@ button:hover {
 }
 
 /* you can set a style on hover for any module like this */
-#pulseaudio:hover {
+#pulseaudio:hover, #custom-sink:hover {
     background-color: @color-widget-audio-hover-bg;
     color: @color-widget-audio-hover-fg;
 }
@@ -213,6 +213,7 @@ button:hover {
 #backlight,
 #network,
 #pulseaudio,
+#custom-sink,
 #wireplumber,
 #custom-media,
 #tray,
@@ -361,7 +362,7 @@ label:focus {
     background-color: #ff0000;
 }
 
-#pulseaudio {
+#pulseaudio, #custom-sink {
     background: linear-gradient(to top, @color-widget-audio-bg, mix(@color-widget-audio-bg, @color-gradient-fade, 0.25));
     color: @color-widget-audio-fg;
 }
@@ -487,4 +488,7 @@ menuitem:hover {
   background: @color-menuitem-hover-bg;
 }
 
-
+menuitem:active {
+  color:  @color-menuitem-active-fg;
+  background: @color-menuitem-active-bg;
+}

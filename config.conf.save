@@ -1,8 +1,5 @@
-monitorrule=name:HDMI-A-1,width:1920,height:1080,refresh:100,x:0,y:0,scale:1
-
-
 # Effect
-blur=0.8
+blur=0
 blur_layer=1
 blur_optimized=1
 blur_params_num_passes = 2
